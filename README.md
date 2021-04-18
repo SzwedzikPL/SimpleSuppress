@@ -1,4 +1,8 @@
-# Simple Suppress
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/SzwedzikPL/SimpleSuppress/master/assets/picture_simplesuppress_ca.jpg" width="680">
+</p>
+
 Arma 3 mod providing simple suppression effect for players.
 
 ## Requirements
