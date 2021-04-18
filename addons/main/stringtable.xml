@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="SimpleSuppress">
+  <Package name="Main">
+    <Key ID="STR_SimpleSuppress_Main_URL">
+      <English>https://github.com/SzwedzikPL/SimpleSuppress</English>
+      <French>https://github.com/SzwedzikPL/SimpleSuppress</French>
+      <Spanish>https://github.com/SzwedzikPL/SimpleSuppress</Spanish>
+      <Italian>https://github.com/SzwedzikPL/SimpleSuppress</Italian>
+      <Polish>https://github.com/SzwedzikPL/SimpleSuppress</Polish>
+      <Russian>https://github.com/SzwedzikPL/SimpleSuppress</Russian>
+      <German>https://github.com/SzwedzikPL/SimpleSuppress</German>
+      <Czech>https://github.com/SzwedzikPL/SimpleSuppress</Czech>
+      <Chinese>https://github.com/SzwedzikPL/SimpleSuppress</Chinese>
+      <Portuguese>https://github.com/SzwedzikPL/SimpleSuppress</Portuguese>
+      <Korean>https://github.com/SzwedzikPL/SimpleSuppress</Korean>
+      <Chinesesimp>https://github.com/SzwedzikPL/SimpleSuppress</Chinesesimp>
+      <Turkish>https://github.com/SzwedzikPL/SimpleSuppress</Turkish>
+      <Japanese>https://github.com/SzwedzikPL/SimpleSuppress</Japanese>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_category_displayName">
+      <English>Simple Suppress</English>
+      <French>Simple Suppress</French>
+      <Spanish>Simple Suppress</Spanish>
+      <Italian>Simple Suppress</Italian>
+      <Polish>Simple Suppress</Polish>
+      <Russian>Simple Suppress</Russian>
+      <German>Simple Suppress</German>
+      <Czech>Simple Suppress</Czech>
+      <Chinese>Simple Suppress</Chinese>
+      <Portuguese>Simple Suppress</Portuguese>
+      <Korean>Simple Suppress</Korean>
+      <Chinesesimp>Simple Suppress</Chinesesimp>
+      <Turkish>Simple Suppress</Turkish>
+      <Japanese>Simple Suppress</Japanese>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_overlayOpacity_name">
+      <English>Overlay opacity</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_overlayOpacity_tooltip">
+      <English>Suppression overlay opacity</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_overlayFadeoutTime_name">
+      <English>Overlay fadeout time</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_overlayFadeoutTime_tooltip">
+      <English>Suppression overlay fadeout time in seconds</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_projectileMaxDistance_name">
+      <English>Projectile max distance</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_projectileMaxDistance_tooltip">
+      <English>Max distance from passing projectile in meters. Projectiles passing at larger distance won't be taken into account.</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_shooterMinDistance_name">
+      <English>Min distance from shooter</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Main_shooterMinDistance_tooltip">
+      <English>Min distance from shooter in meters. This option can be used to disable effect in CQB situations, 0 to disable min distance.</English>
+    </Key>
+  </Package>
+</Project>

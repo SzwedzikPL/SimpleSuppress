@@ -1,0 +1,20 @@
+name = "Simple Suppress"
+prefix = "simplesuppress"
+author = "SzwedzikPL"
+mainprefix = "z"
+files = [
+    "mod.cpp",
+    "README.md",
+    "LICENSE"
+]
+
+modname = "{{name}}"
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip simplesuppress_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
