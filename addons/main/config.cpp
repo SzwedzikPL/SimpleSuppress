@@ -9,10 +9,11 @@ class CfgPatches {
         requiredAddons[] = {"cba_main", "cba_xeh", "cba_events", "cba_settings"};
         author = "SzwedzikPL";
         authors[] = {"SzwedzikPL"};
-        url = ECSTRING(main,URL);
+        url = CSTRING(URL);
         VERSION_CONFIG;
     };
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgMods.hpp"
 #include "overlay.hpp"

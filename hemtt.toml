@@ -5,7 +5,9 @@ mainprefix = "z"
 files = [
     "mod.cpp",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "logo_simplesuppress_ca.paa",
+    "picture_simplesuppress_ca.paa"
 ]
 
 modname = "{{name}}"
