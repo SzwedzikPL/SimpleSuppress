@@ -4,7 +4,7 @@
     [LSTRING(overlayOpacity_name), LSTRING(overlayOpacity_tooltip)],
     ELSTRING(main,category_displayName),
     [0,1,0.96,2],
-    false,
+    true,
     {
       private _display = uiNamespace getVariable [QGVAR(overlay), displayNull];
       if (isNull _display) exitWith {};
@@ -20,7 +20,7 @@
     [LSTRING(overlayFadeoutTime_name), LSTRING(overlayFadeoutTime_tooltip)],
     ELSTRING(main,category_displayName),
     [1,30,10,1],
-    false,
+    true,
     {},
     false
 ] call CBA_fnc_addSetting;
@@ -30,7 +30,7 @@
     [LSTRING(projectileMaxDistance_name), LSTRING(projectileMaxDistance_tooltip)],
     ELSTRING(main,category_displayName),
     [1,10,9,2],
-    false,
+    true,
     {},
     false
 ] call CBA_fnc_addSetting;
@@ -40,7 +40,7 @@
     [LSTRING(shooterMinDistance_name), LSTRING(shooterMinDistance_tooltip)],
     ELSTRING(main,category_displayName),
     [0,50,0,2],
-    false,
+    true,
     {},
     false
 ] call CBA_fnc_addSetting;
