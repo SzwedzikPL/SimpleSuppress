@@ -7,5 +7,3 @@
 // #define ENABLE_PERFORMANCE_COUNTERS
 
 #include "script_macros.hpp"
-
-#define IDC_OVERLAY 1202

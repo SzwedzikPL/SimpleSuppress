@@ -33,29 +33,5 @@
       <Turkish>Simple Suppress</Turkish>
       <Japanese>Simple Suppress</Japanese>
     </Key>
-    <Key ID="STR_SimpleSuppress_Main_overlayOpacity_name">
-      <English>Overlay opacity</English>
-    </Key>
-    <Key ID="STR_SimpleSuppress_Main_overlayOpacity_tooltip">
-      <English>Suppression overlay opacity</English>
-    </Key>
-    <Key ID="STR_SimpleSuppress_Main_overlayFadeoutTime_name">
-      <English>Overlay fadeout time</English>
-    </Key>
-    <Key ID="STR_SimpleSuppress_Main_overlayFadeoutTime_tooltip">
-      <English>Suppression overlay fadeout time in seconds</English>
-    </Key>
-    <Key ID="STR_SimpleSuppress_Main_projectileMaxDistance_name">
-      <English>Projectile max distance</English>
-    </Key>
-    <Key ID="STR_SimpleSuppress_Main_projectileMaxDistance_tooltip">
-      <English>Max distance from passing projectile in meters. Projectiles passing at larger distance won't be taken into account.</English>
-    </Key>
-    <Key ID="STR_SimpleSuppress_Main_shooterMinDistance_name">
-      <English>Min distance from shooter</English>
-    </Key>
-    <Key ID="STR_SimpleSuppress_Main_shooterMinDistance_tooltip">
-      <English>Min distance from shooter in meters. This option can be used to disable effect in CQB situations, 0 to disable min distance.</English>
-    </Key>
   </Package>
 </Project>
