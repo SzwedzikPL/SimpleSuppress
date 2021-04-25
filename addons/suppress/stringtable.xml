@@ -3,27 +3,35 @@
   <Package name="Suppress">
     <Key ID="STR_SimpleSuppress_Suppress_overlayOpacity_name">
       <English>Overlay opacity</English>
+      <Polish>Nieprzeźroczystość nakładki</Polish>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayOpacity_tooltip">
-      <English>Suppression overlay opacity</English>
+      <English>Suppression overlay opacity, the higher the value the more visible will be the supressio effect</English>
+      <Polish>Nieprzeźroczystość nakładki efektu przygwożdżenia, im większa wartość tym bardziej widoczny efekt</Polish>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayFadeoutTime_name">
       <English>Overlay fadeout time</English>
+      <Polish>Czas zanikania nakładki</Polish>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayFadeoutTime_tooltip">
       <English>Suppression overlay fadeout time in seconds</English>
+      <Polish>Czas zanikania nakłądki efektu przygwożdżenia podany w sekundach</Polish>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_projectileMaxDistance_name">
       <English>Projectile max distance</English>
+      <Polish>Maksymalny dystans od pocisku</Polish>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_projectileMaxDistance_tooltip">
-      <English>Max distance from passing projectile in meters. Projectiles passing at larger distance won't be taken into account.</English>
+      <English>Max distance from passing projectile in meters. Projectiles passing at larger distance won't be taken into account</English>
+      <English>Maksymalny dystans od przelatującego pocisku w metrach. Pociski przelatujące na większym dystansie nie będą brane pod uwagę</English>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_shooterMinDistance_name">
       <English>Min distance from shooter</English>
+      <English>Minimalny dystans od strzelca</English>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_shooterMinDistance_tooltip">
       <English>Min distance from shooter in meters. This option can be used to disable effect in CQB situations, 0 to disable min distance.</English>
+      <Polish>Minimalny dystans od strzelca w metrach. Za pomocą tej opcji można wyłączyć efekt przygwożdżenia podczas walki na bliski dystanc, 0 aby wyłaczyć.</Polish>
     </Key>
   </Package>
 </Project>
