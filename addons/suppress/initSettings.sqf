@@ -2,7 +2,7 @@
 [
     QGVAR(overlayOpacity), "SLIDER",
     [LSTRING(overlayOpacity_name), LSTRING(overlayOpacity_tooltip)],
-    LSTRING(category_displayName),
+    ELSTRING(main,category_displayName),
     [0,1,0.96,2],
     false,
     {
@@ -18,7 +18,7 @@
 [
     QGVAR(overlayFadeoutTime), "SLIDER",
     [LSTRING(overlayFadeoutTime_name), LSTRING(overlayFadeoutTime_tooltip)],
-    LSTRING(category_displayName),
+    ELSTRING(main,category_displayName),
     [1,30,10,1],
     false,
     {},
@@ -28,7 +28,7 @@
 [
     QGVAR(projectileMaxDistance), "SLIDER",
     [LSTRING(projectileMaxDistance_name), LSTRING(projectileMaxDistance_tooltip)],
-    LSTRING(category_displayName),
+    ELSTRING(main,category_displayName),
     [1,10,9,2],
     false,
     {},
@@ -38,7 +38,7 @@
 [
     QGVAR(shooterMinDistance), "SLIDER",
     [LSTRING(shooterMinDistance_name), LSTRING(shooterMinDistance_tooltip)],
-    LSTRING(category_displayName),
+    ELSTRING(main,category_displayName),
     [0,50,0,2],
     false,
     {},

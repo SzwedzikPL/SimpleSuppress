@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_common"};
+        requiredAddons[] = {"simplesuppress_main"};
         author = "SzwedzikPL";
         authors[] = {"SzwedzikPL"};
         url = CSTRING(URL);
@@ -14,4 +14,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgMods.hpp"
+#include "CfgEventHandlers.hpp"
+#include "overlay.hpp"
