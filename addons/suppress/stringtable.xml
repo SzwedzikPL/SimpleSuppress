@@ -13,6 +13,21 @@
       <Russian>Непрозрачность эффекта при подавлении</Russian>
       <German>Wie stark unterdrückt der effekt den charakter</German>
     </Key>
+    <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_name">
+      <English>Overlay texture type</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_tooltip">
+      <English>Level of darkness of overlay texture. Darker texture means more screen will be covered with overlay when suppressed.</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_light">
+      <English>Light</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_medium">
+      <English>Medium</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_dark">
+      <English>Dark</English>
+    </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayFadeoutTime_name">
       <English>Overlay fadeout time</English>
       <Polish>Czas zanikania nakładki</Polish>
@@ -33,13 +48,13 @@
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_projectileMaxDistance_tooltip">
       <English>Max distance from passing projectile in meters. Projectiles passing at larger distance won't be taken into account</English>
-      <English>Maksymalny dystans od przelatującego pocisku w metrach. Pociski przelatujące na większym dystansie nie będą brane pod uwagę</English>
+      <Polish>Maksymalny dystans od przelatującego pocisku w metrach. Pociski przelatujące na większym dystansie nie będą brane pod uwagę</Polish>
       <Russian>Максимальное расстояние пролетающего снаряда. Снаряды, пролетающие на большем расстоянии не будут создавать эффект подавления</Russian>
       <German>Maximale entfernung vom vorbeifahrenden projektil in metern. Projektile, die in größerer entfernung vorbeigehen, werden nicht berücksichtigt</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_shooterMinDistance_name">
       <English>Min distance from shooter</English>
-      <English>Minimalny dystans od strzelca</English>
+      <Polish>Minimalny dystans od strzelca</Polish>
       <Russian>Минимальная дистанция до стрелка</Russian>
       <German>Min entfernung vom schütze</German>
     </Key>
@@ -48,6 +63,12 @@
       <Polish>Minimalny dystans od strzelca w metrach. Za pomocą tej opcji można wyłączyć efekt przygwożdżenia podczas walki na bliski dystanc, 0 aby wyłaczyć.</Polish>
       <Russian>Минимальная дистанция до стрелка в метрах. Данная опция может использоваться для отключения в случаях боя в ограниченном пространстве. Значение 0 отключает опцию</Russian>
       <German>Min entfernung vom schützen in metern. Diese option kann verwendet werden, um den effekt in CQB-Situationen zu deaktivieren, ein wert von 0 deaktiviert den mindestabstand</German>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Suppress_checkLOS_name">
+      <English>Check line of sight</English>
+    </Key>
+    <Key ID="STR_SimpleSuppress_Suppress_checkLOS_tooltip">
+      <English>When enabled, checks line of sight between player's eyes and passing projectile, ignoring projectiles passing behind cover, walls etc.</English>
     </Key>
   </Package>
 </Project>

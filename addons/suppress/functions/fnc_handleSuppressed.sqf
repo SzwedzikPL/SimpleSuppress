@@ -4,7 +4,7 @@
  * Handles suppressed EH
  */
 
-params ["_unit", "_distance", "_shooter"];
+params ["_unit", "_distance", "_shooter", "", "_ammoObject"];
 
 if (
   // Exit if EH is triggered for remote unit - should not happen
@@ -25,6 +25,9 @@ private _newSuppress = linearConversion [GVAR(projectileMaxDistance), 1, _distan
 
 // Exit if shot has no effect
 if (_newSuppress isEqualTo 0) exitWith {};
+
+// Check line of sight
+if (GVAR(checkLOS) && {(lineIntersectsSurfaces [eyePos _unit, getPosASL _ammoObject, _unit, _ammoObject, true, 1]) isNotEqualTo []}) exitWith {};
 
 private _display = uiNamespace getVariable [QGVAR(overlay), displayNull];
 // Exit if no display - should not happen

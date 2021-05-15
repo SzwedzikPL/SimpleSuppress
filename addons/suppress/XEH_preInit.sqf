@@ -10,6 +10,10 @@ if (hasInterface) then {
   GVAR(displayInterrupt) = false;
 };
 
+addMissionEventHandler ["Loaded", {
+  0 spawn FUNC(initOverlay);
+}];
+
 #include "initSettings.sqf"
 
 ADDON = true;

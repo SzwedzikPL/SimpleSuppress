@@ -14,7 +14,7 @@ class RscTitles {
             	y = "safezoneY";
             	w = "safezoneWAbs";
             	h = "safezoneH";
-            	text = QPATHTOF(data\overlay.paa);
+            	text = QPATHTOF(data\overlay_medium.paa);
             	colortext[] = {0, 0, 0, 1};
             };
     	};
