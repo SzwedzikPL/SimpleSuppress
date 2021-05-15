@@ -1,7 +1,7 @@
-name = "Simple Suppress 1.0.0";
+name = "Simple Suppress 1.1.0";
 actionName = "Github";
 action = "https://github.com/SzwedzikPL/SimpleSuppress";
-description = "Simple Suppress 1.0.0";
+description = "Simple Suppress 1.1.0";
 tooltip = "Simple Suppress";
 tooltipOwned = "Simple Suppress";
 overview = "Arma 3 mod providing simple suppression effect for players.";
