@@ -14,22 +14,27 @@
       <German>Die Deckraft des Overlays bestimmt wie stark der Niederhaltungseffekt sichtbar ist.</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_name">
+      <Russian>Текстура эффекта</Russian>
       <English>Overlay texture type</English>
       <German>Overlay-Textur</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_tooltip">
+      <Russian>Уровень темноты текстуры наложения. Более темная текстура означает, что при подавлении экран будет затемняться интенсивнее</Russian>
       <English>Level of darkness of overlay texture. Darker texture means more screen will be covered with overlay when suppressed.</English>
       <German>Helligkeitsstufe der Overlay-Texture. Eine dunklere Texture bedeutet das mehr Bildschirmoberfläche bei Niederhaltung davon bedeckt wird.</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_light">
+      <Russian>Светлая</Russian>
       <English>Light</English>
       <German>Hell</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_medium">
+      <Russian>Средняя</Russian>
       <English>Medium</English>
       <German>Mittel</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_overlayTexture_dark">
+      <Russian>Тёмная</Russian>
       <English>Dark</English>
       <German>Dunkel</German>
     </Key>
@@ -70,10 +75,12 @@
       <German>Kleinste Entfernung vom Schützen in Metern. Diese Option kann verwendet werden, um den Effekt in Häuserkämpfen zu deaktivieren. Ein wert von 0 deaktiviert den Mindestabstand.</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_checkLOS_name">
+      <Russian>Проверка прямой видимости снарядов</Russian>
       <English>Check line of sight</English>
       <German>Fluchtlinie</German>
     </Key>
     <Key ID="STR_SimpleSuppress_Suppress_checkLOS_tooltip">
+      <Russian>При включении проверяет видимость снаряда персонажем игрока. Игнорируются снаряды пролетающие за укрытием (стенами, забором и т.д)</Russian>
       <English>When enabled, checks line of sight between player's eyes and passing projectile, ignoring projectiles passing behind cover, walls etc.</English>
       <German>Wenn aktiviert, wird die Fluchlinie zwischen den Augen des Spielers und des vorbeifliegenden Projektils überprüft. Somit wird sichergestellt, dass Projektile hinter Objekten ignoriert werden.</German>
     </Key>
